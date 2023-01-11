@@ -61,4 +61,28 @@ public class Main {
             System.out.println("Если возраст человека равен "+age+" , то ему пора ходить на работу.");
         }
     }
+
+    public static void tas() {
+        System.out.println("task - 4");
+        int age = 100;
+        boolean isNeedKindergarten = age>=2 && age<=6;
+        boolean isGotoSchool = age>=7 && age<18;
+        boolean isUniversity = age>18 && age<24;
+        boolean isGotoWork = age>=24 && age <= 65;
+
+
+
+        if(isNeedKindergarten) {
+            System.out.println("Если возраст человека равен "+age+" , то ему нужно ходить в детский сад.");
+        }
+        if(isGotoSchool) {
+            System.out.println("Если возраст человека равен "+age+" , то ему нужно ходить в ходить в школу.");
+        }
+        if(isUniversity) {
+            System.out.println("Если возраст человека равен "+age+" , то его место в университете.");
+        }
+        if(isGotoWork) {
+            System.out.println("Если возраст человека равен "+age+" , то ему пора ходить на работу.");
+        }
+    }
 }
