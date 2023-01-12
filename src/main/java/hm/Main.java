@@ -2,8 +2,9 @@ package hm;
 
 public class Main {
     public static void main(String[] args) {
-        task1_v2();
-        task2_v2();
+        // task1_v2();
+       // task2_v2();
+        task3_v2_1();
     }
 
     public static void task1_v2() {
@@ -48,7 +49,18 @@ public class Main {
             System.out.println(year + " - это обычный год !");
         }
         System.out.println("---------------------------");
-
+    }
+    public static void task3_v2_1() {
+        int deliveryDistance = 60;
+        if (deliveryDistance <= 20) {
+            System.out.println("Потребуется дней: Один день");
+        } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
+            System.out.println("Потребуется дней: Два дня");
+        } else if (deliveryDistance >= 60 && deliveryDistance <= 100) {
+            System.out.println("Потребуется дней: Три дня");
+        } else {
+            System.out.println("Свыше 100 км доставки нет");
+        }
     }
 
 }
