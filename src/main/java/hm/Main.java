@@ -3,8 +3,9 @@ package hm;
 public class Main {
     public static void main(String[] args) {
         // task1_v2();
-       // task2_v2();
-        task3_v2_2();
+        // task2_v2();
+        //  task4_v2_2();
+        task5_v2_2();
     }
 
     public static void task1_v2() {
@@ -34,7 +35,7 @@ public class Main {
         }
     }
 
-    public static void task2_v2() {
+    public static void task3_v2() {
         System.out.println("task1_v2");
         int year = 2023;
         int vesakos4 = year % 4;
@@ -50,7 +51,8 @@ public class Main {
         }
         System.out.println("---------------------------");
     }
-    public static void task3_v2_2() {
+
+    public static void task4_v2_2() {
         int deliveryDistance = 60;
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней: Один день");
@@ -63,4 +65,52 @@ public class Main {
         }
     }
 
+    public static void task5_v2_2() {
+        int monthNumber = 13;
+
+        switch (monthNumber) {
+            case 1:
+            case 2:
+                System.out.println("Сизон Зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Сизон Весна");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Сизон Лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Сизон Осень");
+                break;
+            case 12:
+                System.out.println("Сизон зима");
+                break;
+
+            default:
+                System.out.println("Такого месяца не существует");
+        }
+
+        // switch v2
+        switch (monthNumber) {
+            case 1, 2, 12 -> {
+                System.out.println("Сизон Зима версия - 2");
+            }
+            case 3, 4, 5 -> {
+                System.out.println("Сизон Весна версия - 2");
+            }
+            case 6, 7, 8 -> {
+                System.out.println("Сизон Лето версия - 2");
+            }
+            case 9, 10, 11 -> {
+                System.out.println("Сизон Осень версия - 2");
+            }
+            default -> System.out.println("Такого месяца не существует версия - 2");
+        }
+    }
 }
