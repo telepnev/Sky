@@ -2,9 +2,9 @@ package hm;
 
 public class Main {
     public static void main(String[] args) {
-        // task1_v2();
-        // task2_v2();
-        //  task4_v2_2();
+        task1_v2();
+        task3_v2();
+        task4_v2_2();
         task5_v2_2();
     }
 
@@ -113,4 +113,5 @@ public class Main {
             default -> System.out.println("Такого месяца не существует версия - 2");
         }
     }
+
 }
