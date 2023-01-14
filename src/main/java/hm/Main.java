@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         // task1_v2();
        // task2_v2();
-        task3_v2_1();
+        task3_v2_2();
     }
 
     public static void task1_v2() {
@@ -50,7 +50,7 @@ public class Main {
         }
         System.out.println("---------------------------");
     }
-    public static void task3_v2_1() {
+    public static void task3_v2_2() {
         int deliveryDistance = 60;
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней: Один день");
