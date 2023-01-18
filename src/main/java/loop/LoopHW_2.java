@@ -1,16 +1,6 @@
 package loop;
 
 public class LoopHW_2 {
-    public static void main(String[] args) {
-        //loopTaskv2_1();
-//        loopTaskv2_2();
-//        loopTaskv2_3();
-//         loopTaskv2_4();
-//        loopTaskv2_5();
-       // loopTaskv2_6();
-        loopTaskv2_7();
-    }
-
     public static void loopTaskv2_1() {
         System.out.println("loopTaskv2_1");
 
@@ -118,20 +108,29 @@ public class LoopHW_2 {
 
     public static void loopTaskv2_7() {
         System.out.println("loopTaskv2_7");
-        int friday = 5;
+        int friday = 7;
         int month = 31;
         int count = 0;
 
-        for (int i = 0; i < month; i++) {
+        for (int i = 1; i < month; i++) {
             count++;
-
-            if (friday == 5) {
-                if (count % 7 == 0) {
-                    System.out.println("Сегодня пятница, " + count + " -е число. Необходимо подготовить отчет");
+            if (count == friday) {
+                for (int j = friday; j < month; j += 7) {
+                    System.out.println("Сегодня пятница, " + j + " -е число. Необходимо подготовить отчет");
                 }
             }
         }
     }
 
+    public static void loopTaskv2_8() {
+        System.out.println("loopTaskv2_7");
+        int yearStar = 1896;
+        int yearEnd = 2123;
+        int yearRate = 79;
+
+        for (int i = yearStar; i <= yearEnd; i += yearRate) {
+            System.out.println("Год пролета кометы =  " + i);
+        }
+    }
 
 }
