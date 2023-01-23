@@ -17,6 +17,14 @@ public class MainLoop {
 
         // Задание по циклам № 2
         LoopHW_2 hw2 = new LoopHW_2();
+        hw2.loopTaskv2_1();
+        hw2.loopTaskv2_2();
+        hw2.loopTaskv2_3();
+        hw2.loopTaskv2_4();
+        hw2.loopTaskv2_5();
+        hw2.loopTaskv2_6();
+        hw2.loopTaskv2_7();
+        hw2.loopTaskv2_8();
     }
 
 }
