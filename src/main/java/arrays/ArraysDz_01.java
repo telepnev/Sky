@@ -1,7 +1,6 @@
-package arrays01;
+package arrays;
 
 import java.util.Arrays;
-import java.util.Random;
 
 public class ArraysDz_01 {
     public static void main(String[] args) {

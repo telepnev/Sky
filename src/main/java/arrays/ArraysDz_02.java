@@ -1,4 +1,4 @@
-package arrays01;
+package arrays;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -53,7 +53,7 @@ public class ArraysDz_02 {
         for (int res : arr) {
             sum += res;
         }
-        System.out.println("Средняя сумма трат за месяц составила "+ sum / 30 + " рублей");
+        System.out.println("Средняя сумма трат за месяц составила "+ sum / arr.length + " рублей");
     }
 
     public static void taskArrays_02_4() {
