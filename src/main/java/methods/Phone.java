@@ -2,7 +2,7 @@ package methods;
 
 public class Phone {
 
-    public void addOsAndYear(String clientOS, int clientDeviceYear) {
+      void getOsAndYear(String clientOS, int clientDeviceYear) {
 
         int deviceYear = clientDeviceYear;
         int os = getClientOs(clientOS);
@@ -23,7 +23,7 @@ public class Phone {
         }
     }
 
-    public int getClientOs(String clientOsDevice) {
+    private int getClientOs(String clientOsDevice) {
         String os = clientOsDevice;
         String clientOs = "ios";
         if (clientOs.equals(os.toLowerCase())) {
