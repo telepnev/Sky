@@ -3,13 +3,6 @@ package arrays;
 import java.util.Arrays;
 
 public class ArraysDz_01 {
-    public static void main(String[] args) {
-//        taskArrays_01_1_2();
-//        taskArrays_01_3();
-        taskArrays_01_4();
-
-    }
-
     public static void taskArrays_01_1_2() {
         int[] arrayInt = new int[3];
         arrayInt[0] = 1;

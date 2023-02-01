@@ -4,15 +4,6 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class ArraysDz_02 {
-    public static void main(String[] args) {
-
-        //     taskArrays_02_1();
-//        taskArrays_02_2();
-//        taskArrays_02_3();
-        taskArrays_02_4();
-
-    }
-
     public static int[] generateRandomArray() {
         Random random = new Random();
         int[] arr = new int[30];
@@ -53,11 +44,11 @@ public class ArraysDz_02 {
         for (int res : arr) {
             sum += res;
         }
-        System.out.println("Средняя сумма трат за месяц составила "+ sum / arr.length + " рублей");
+        System.out.println("Средняя сумма трат за месяц составила " + sum / arr.length + " рублей");
     }
 
     public static void taskArrays_02_4() {
-        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length; i > 0; i--) {
             System.out.print(reverseFullName[i - 1]);
         }
