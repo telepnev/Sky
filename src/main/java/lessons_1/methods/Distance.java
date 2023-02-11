@@ -1,4 +1,4 @@
-package methods;
+package lessons_1.methods;
 
 public class Distance {
     void getDeliveryDistance(int deliveryDistance) {

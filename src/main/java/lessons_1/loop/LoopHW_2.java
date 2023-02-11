@@ -1,4 +1,4 @@
-package loop;
+package lessons_1.loop;
 
 public class LoopHW_2 {
     public static void loopTaskv2_1() {

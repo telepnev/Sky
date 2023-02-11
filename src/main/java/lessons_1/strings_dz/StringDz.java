@@ -1,4 +1,4 @@
-package strings_dz;
+package lessons_1.strings_dz;
 
 public class StringDz {
     public static void main(String[] args) {

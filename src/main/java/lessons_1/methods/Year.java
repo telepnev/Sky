@@ -1,4 +1,4 @@
-package methods;
+package lessons_1.methods;
 
 public class Year {
     public void isYearLeap(int year) {

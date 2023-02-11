@@ -1,4 +1,4 @@
-package loop;
+package lessons_1.loop;
 
 public class MainLoop {
     public static void main(String[] args) {

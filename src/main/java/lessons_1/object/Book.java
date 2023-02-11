@@ -1,4 +1,4 @@
-package object;
+package lessons_1.object;
 
 public class Book {
    private String book;

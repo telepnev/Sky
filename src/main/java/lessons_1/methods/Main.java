@@ -1,4 +1,4 @@
-package methods;
+package lessons_1.methods;
 
 import java.time.LocalDate;
 import java.util.Random;
