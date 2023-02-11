@@ -5,11 +5,11 @@ public class Main {
         Author levTolstoi = new Author("Лев", "Толстой");
         Author mihailBulgakov = new Author("Михаил", "Булгаков");
 
-        Book warAndPeace = new Book("Война и мир", levTolstoi, 2023);
-        Book masterMargarita = new Book("Мастер и Маргарита", mihailBulgakov, 2023);
+        Book warAndPeace = new Book("Война и мир", levTolstoi, 2001);
+        Book masterMargarita = new Book("Мастер и Маргарита", mihailBulgakov, 1999);
 
-        warAndPeace.setYearPublication(1868);
-        masterMargarita.setYearPublication(1940);
+        warAndPeace.setYearPublication(2023);
+        masterMargarita.setYearPublication(2023);
 
         System.out.println(warAndPeace.getBook() + " - " + warAndPeace.getAuthor() + " - " + warAndPeace.getYearPublication());
         System.out.println(masterMargarita.getBook() + " - " + masterMargarita.getAuthor() + " - " + masterMargarita.getYearPublication());
