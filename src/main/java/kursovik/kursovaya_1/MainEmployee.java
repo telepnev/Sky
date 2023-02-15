@@ -13,7 +13,6 @@ public class MainEmployee {
         serves.addEmployee("Татьяна", "Евгеньевич", "Голицын", 1, 38000);
         serves.addEmployee("Афанасий", "Сергеевич", "Теплицин", 2, 31000);
         serves.addEmployee("Дмитрий", "Дмитрьевич", "Афанасьев", 3, 14000);
-        serves.addEmployee("Олег", "Олегович", "Разин", 6, 63000);
         serves.getFioEmployee();
         serves.printEmployeeList();
         serves.getAmountSalaryPerMonth();
