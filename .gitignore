@@ -1,3 +1,7 @@
 # Project exclude paths
 /target/
 /.idea/
+/src/main/java/lessons_1/
+/src/main/java/lessons_1/kursovik/zadachiKurs/
+/src/main/java/lessons_1/bilet/
+/src/main/java/lessons_1/
