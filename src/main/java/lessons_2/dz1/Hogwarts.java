@@ -53,6 +53,4 @@ public class Hogwarts {
                                 + ", магия - " + getMagic() + ", расстояние трансгресии - " + getTransgress()
                 );
     }
-
-
 }
